@@ -118,3 +118,28 @@
     height: 45px;
     object-fit: contain;
 }
+.navbar > a{
+    background-color: #e50914;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+.navbar a:hover{
+    background-color: #c11119;
+}
+
+.info-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
