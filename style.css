@@ -26,3 +26,17 @@
     justify-content: center;
     height: calc(100% - 45px);
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:24px 170px;
+    position: relative;
+    z-index: 2;
+}
+.navbar > img{
+    width: 165px;
+    height: 45px;
+    object-fit: contain;
+}
