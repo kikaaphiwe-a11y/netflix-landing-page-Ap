@@ -239,6 +239,29 @@ body{
     color: #ffffff;
 }
 
+.cta-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px 170px;
+}
+
+.cta-form{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cta-section .email-form-title{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cta-section .get-started-form input{
+    width: 580px;
+    max-width: 100%;
+}
+
 .footer{
     background-color: black;
     color: #bab3b3;
