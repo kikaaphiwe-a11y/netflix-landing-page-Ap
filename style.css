@@ -6,6 +6,22 @@
     text-decoration: none;
 }
 
+.card-title{
+    font-size: 3.8rem;
+    font-weight: 900;
+    line-height:1.1;
+    text-align:center;
+    max-width: 650px;
+    letter-spacing: -2px;
+    margin-bottom:1rem;
+}
+
+.card-subtitle{
+    margin: 0 0 16px;
+    font-size: 20px;
+    
+}
+
 .hero-section{
     background-image: url(./assets/the_netflix_background_img.jpg);
     background-size: cover;
