@@ -147,3 +147,38 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+.footer{
+    background-color: black;
+    color: #bab3b3;
+    padding: 70px 170px;
+}
+
+.footer p{
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.footer ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li{
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #bab3b3;
+    text-decoration: underline;
+}
+
+.footer ul li:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom{
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
