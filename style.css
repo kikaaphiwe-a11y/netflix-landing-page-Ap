@@ -1,5 +1,17 @@
+
+
 *{
     box-sizing: border-box;
     margin: 0px;
     text-decoration: none;
+}
+
+.hero-section{
+    background-image: url(./assets/the_netflix_background_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
 }
