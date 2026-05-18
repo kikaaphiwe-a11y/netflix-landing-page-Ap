@@ -85,6 +85,78 @@ body{
     top: 0;
 }
 
+main section {
+    background-color: black;
+}
+h3 {
+    color: white;
+}
+div span {
+    -webkit-text-stroke: 1px white;
+    font-weight: 500;
+    font-size: 100px;
+    position: relative;
+    right: 25px;
+}
+div.cards {
+    width: 214px;
+    height: 300px;
+
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#card1 {
+    background: url(assets/180-img.webp) center no-repeat;
+    background-size: cover;
+}
+main {
+    padding: 0 10vw;
+    background-color: black;
+}
+#card2 {
+    background: url(assets/apex-img.webp);
+    background-size: cover;
+}
+#card3 {
+    background: url(assets/fatal-seduction-img.webp);
+    background-size: cover;
+}
+#card4 {
+    background: url(assets/the-cleaning-lady-img.webp);
+    background-size: cover;
+}
+#card5 {
+    background: url(assets/beauty-in-black-img.webp);
+    background-size: cover;
+}
+#card6 {
+    background: url(assets/trials-of-winnie-img.webp);
+    background-size: cover;
+}
+#card7 {
+    background: url(assets/swapped-img.webp);
+    background-size: cover;
+}
+#card8 {
+    background: url(assets/nemesis-img.webp);
+    background-size: cover;
+}
+#card9 {
+    background: url(assets/man-on-fire-img.webp);
+    background-size: cover;
+}
+#card10 {
+    background: url(assets/masha-img.webp);
+    background-size: cover;
+}
+#trending-now {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
 .banner-container{
     text-align: center;
     padding: 0 20px;
