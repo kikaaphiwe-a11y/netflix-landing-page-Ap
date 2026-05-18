@@ -1,5 +1,171 @@
-@media (max-width: 768px) {
-    body {
-        background-color: black;
+/* =========================
+   TABLETS
+========================= */
+
+@media (max-width: 992px){
+
+    .navbar{
+        padding: 20px 40px;
+    }
+
+    .navbar > img{
+        width: 130px;
+    }
+
+    .card-title{
+        font-size: 3rem;
+    }
+
+    .trailer-section{
+        padding: 60px 40px;
+    }
+
+    .faq-section{
+        padding: 60px 40px;
+    }
+
+    .cta-section{
+        padding: 60px 40px;
+    }
+
+    .footer{
+        padding: 60px 40px;
+    }
+
+    .get-started-form{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .get-started-form input{
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .get-started-form button{
+        width: 220px;
+    }
+
+    .cards{
+        min-width: 180px;
+        height: 260px;
+    }
+
+    .cards span{
+        font-size: 90px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px){
+
+    .navbar{
+        padding: 20px;
+    }
+
+    .navbar > img{
+        width: 100px;
+    }
+
+    .hero-section{
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .banner-container{
+        padding: 60px 20px;
+    }
+
+    .card-title{
+        font-size: 2.2rem;
+        letter-spacing: 0;
+    }
+
+    .card-subtitle{
+        font-size: 1rem;
+    }
+
+    .email-form-title{
+        font-size: 0.95rem;
+    }
+
+    .get-started-form{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .get-started-form input{
+        width: 100%;
+    }
+
+    .get-started-form button{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .trailer-section{
+        padding: 50px 20px;
+    }
+
+    .trailer-title{
+        font-size: 2rem;
+    }
+
+    main{
+        padding: 0 20px;
+    }
+
+    h3{
+        padding-left: 0;
+    }
+
+    #trending-now{
+        gap: 18px;
+    }
+
+    .cards{
+        min-width: 140px;
+        height: 220px;
+    }
+
+    .cards span{
+        font-size: 70px;
+        right: 15px;
+    }
+
+    .faq-section{
+        padding: 50px 20px;
+    }
+
+    .faq-title{
+        font-size: 2rem;
+    }
+
+    .faq-item{
+        padding: 18px;
+    }
+
+    .faq-item summary{
+        font-size: 1.2rem;
+    }
+
+    .faq-item p{
+        font-size: 1rem;
+    }
+
+    .cta-section{
+        padding: 50px 20px;
+    }
+
+    .footer{
+        padding: 50px 20px;
+    }
+
+    .footer ul{
+        grid-template-columns: repeat(2,1fr);
     }
 }
